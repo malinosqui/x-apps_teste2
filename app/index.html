@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Teste x-apps - Todo</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/site.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="twelve columns centered">
+                <h1>Todo list</h1>
+            </div>
+        </div>
+        <div class="row centered">
+            <div class="six columns">
+                <input class="u-full-width" type="text" placeholder="Tarefa" id="task" maxlength="12">
+            </div>
+            <div class="six columns left">
+                <button class="button-primary" id="addTask">Adicionar</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="eight columns centered">
+                <ul class="todo-list">
+                    <!--<li class="todo-item">
+                        <span class="todo-desc">
+                            Item 1 - Pendente - 10/02/2017
+                        </span>
+                        <div class="todo-buttons right">
+                            <a><i class="material-icons">check_circle</i></a>
+                            <a><i class="material-icons">delete</i></a>
+                        </div>
+                    </li>-->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/axios.min.js"></script>
+    <script src="js/moment.js"></script>
+    <script src="js/tasks.js"></script>
+    <script src="js/util.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+{
+  "name": "api_xapps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "consign": "^0.1.4",
+    "moment": "^2.18.1",
+    "mongoose": "^4.9.7",
+    "restify": "^4.3.0"
+  }
+}

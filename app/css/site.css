@@ -1,0 +1,42 @@
+h1 {
+    font-size: 2em;
+}
+
+.centered {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
+}
+
+.todo-list {
+    list-style: none;
+}
+
+.action:hover {
+    cursor: pointer;
+}
+
+.action {
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.todo-item {
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.todo-item.finished {
+    text-decoration: line-through;
+}
+
+.todo-buttons {
+    display: inline;
+    float: right;
+}
